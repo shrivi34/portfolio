@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vinayak G Raju</title>
+  <meta name="description" content="Vinayak G Raju: MBA in product management and AI at Columbia Business School, MS in AI/ML at Columbia Engineering, former co-founder and CEO of an AI software company.">
+  <meta property="og:title" content="Vinayak G Raju">
+  <meta property="og:description" content="MBA (Product Management and AI) and MS in AI/ML at Columbia. Former co-founder and CEO of Hiranya Pathaye Technologies, a B2B AI software company.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#F1F5F8" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#101B2B" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;1,7..72,400&family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="#top">Vinayak G Raju</a>
+      <nav aria-label="Sections">
+        <ul>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" id="top">
+      <div class="hero-text">
+        <h1>Vinayak<br>G&nbsp;Raju</h1>
+        <p class="lede">I&rsquo;m studying for an MBA in product management and AI at Columbia Business School and an MS in AI/ML at Columbia Engineering.</p>
+        <p class="lede">Before Columbia, I spent four years as co-founder and CEO of Hiranya Pathaye Technologies, a B2B AI software company in Bengaluru, taking LLM products from customer interviews to production.</p>
+        <ul class="hero-links">
+          <li><a href="mailto:vgr2110@gsb.columbia.edu">vgr2110@gsb.columbia.edu</a></li>
+          <li><a href="https://www.linkedin.com/in/vinayakr2" rel="me">LinkedIn</a></li>
+        </ul>
+      </div>
+
+      <figure class="ransac">
+        <div class="plot">
+          <canvas id="ransac" role="img" aria-label="Scatter plot of points along a line with scattered outliers. A solid line fitted by RANSAC follows the main trend; a dashed least-squares line is pulled away by the outliers."></canvas>
+        </div>
+        <div class="plot-bar">
+          <p class="plot-status" id="ransac-status">Fitting a line&hellip;</p>
+          <button type="button" class="plot-button" id="ransac-reset">New data</button>
+        </div>
+        <figcaption>
+          <strong>RANSAC, running live.</strong> It tests lines through random pairs of points and keeps the one most points agree with. The dashed line is ordinary least squares, dragged off course by the outliers. My first-author paper, <em>Smart RANSAC</em>, builds on this method.
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="section wrap" id="work" aria-labelledby="work-title">
+      <h2 class="section-title" id="work-title">Work</h2>
+      <div class="section-body">
+
+        <article class="org">
+          <header class="org-head">
+            <h3>Hiranya Pathaye Technologies</h3>
+            <p class="org-meta">Co-founder and CEO (head of product), 2022&ndash;2026, Bengaluru</p>
+          </header>
+          <p class="prose">A B2B AI software and consulting start-up recognized under the Government of India&rsquo;s Startup India (DPIIT) program. I owned the P&amp;L, product vision, roadmap and go-to-market for an AI product portfolio and a software services practice.</p>
+
+          <div class="projects">
+            <article class="project">
+              <div class="project-head">
+                <h4>StormInvoice</h4>
+                <p>AI invoice automation for accountants</p>
+              </div>
+              <div class="project-body">
+                <p>Chartered accountants and financial services firms told us the same thing in discovery interviews: invoice entry was manual, slow and error-prone. I turned their pain points into a prioritized MVP spec, then took the product from a GPT-4 prototype to a self-hosted, fine-tuned Llama-3 model with OCR.</p>
+                <p class="result">About 75% lower cost per invoice and 5x the throughput of manual entry.</p>
+              </div>
+            </article>
+
+            <article class="project">
+              <div class="project-head">
+                <h4>Clinical decision support</h4>
+                <p>AI for clinicians in rural India</p>
+              </div>
+              <div class="project-body">
+                <p>Designed for low-connectivity settings, with multilingual NLP and access from basic feature phones. User research showed that patient self-diagnosis was the wrong place to start, so we pivoted to clinician-facing workflows.</p>
+                <p>I evaluated the fine-tuned open-source LLM and its retrieval layer for accuracy and bias on BODH, the Government of India&rsquo;s health-AI benchmark.</p>
+              </div>
+            </article>
+
+            <article class="project">
+              <div class="project-head">
+                <h4>ERPNext copilot</h4>
+                <p>Plain-language ERP workflows</p>
+              </div>
+              <div class="project-body">
+                <p>A cost-benefit analysis I led persuaded two client organizations to adopt customized open-source Frappe ERPNext instead of SAP, avoiding SAP license costs. We then built a generative AI copilot that adds a natural-language interface to their ERP workflows.</p>
+              </div>
+            </article>
+
+            <article class="project">
+              <div class="project-head">
+                <h4>Client delivery</h4>
+                <p>10+ engagements on AWS and Azure</p>
+              </div>
+              <div class="project-body">
+                <p>Won client projects through competitive bidding, leading proposals, solution design and pricing. Delivered custom ERPs, document management systems and web platforms, keeping client stakeholders and engineers aligned on scope and milestones across the full development cycle.</p>
+              </div>
+            </article>
+          </div>
+        </article>
+
+        <article class="org">
+          <header class="org-head">
+            <h3>Schneider Electric</h3>
+            <p class="org-meta">Software development intern, summer 2021, Bengaluru</p>
+          </header>
+          <p class="prose">Architected a multi-level certificate authority system with Terraform CDK and delivered a production-ready proof of concept to replace a paid vendor tool, designed to save more than $45,000 a year in licensing.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section wrap" id="research" aria-labelledby="research-title">
+      <h2 class="section-title" id="research-title">Research and recognition</h2>
+      <div class="section-body">
+        <ul class="entries">
+          <li class="entry">
+            <p class="entry-title">Smart RANSAC: A Robust Approach</p>
+            <p class="entry-meta">First author, IEEE CITDS 2024</p>
+          </li>
+          <li class="entry">
+            <p class="entry-title">Cumulative Prospect Theory and SVM for Portfolio Optimization</p>
+            <p class="entry-meta">IEEE MoSICom 2025</p>
+          </li>
+          <li class="entry">
+            <p class="entry-title">Amazon ML Challenge 2024</p>
+            <p class="entry-meta">Top 150 of more than 74,000 entrants</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section wrap" id="education" aria-labelledby="education-title">
+      <h2 class="section-title" id="education-title">Education</h2>
+      <div class="section-body">
+        <ol class="timeline">
+          <li>
+            <p class="when">2026&ndash;2028</p>
+            <div>
+              <p class="entry-title">Columbia Business School</p>
+              <p class="entry-meta">MBA, Product Management and AI. Member of the Artificial Intelligence Club and Technology Club.</p>
+            </div>
+          </li>
+          <li>
+            <p class="when">2026&ndash;2028</p>
+            <div>
+              <p class="entry-title">Columbia Engineering</p>
+              <p class="entry-meta">MS, Artificial Intelligence and Machine Learning</p>
+            </div>
+          </li>
+          <li>
+            <p class="when">2023&ndash;2025</p>
+            <div>
+              <p class="entry-title">Manipal Institute of Technology</p>
+              <p class="entry-meta">MTech in AI (Machine Intelligence and Decision Science)</p>
+            </div>
+          </li>
+          <li>
+            <p class="when">2018&ndash;2022</p>
+            <div>
+              <p class="entry-title">Manipal Institute of Technology</p>
+              <p class="entry-meta">BTech in Computer Science, minor in Business Management</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section wrap" id="leadership" aria-labelledby="leadership-title">
+      <h2 class="section-title" id="leadership-title">Speaking and mentoring</h2>
+      <div class="section-body">
+        <p class="prose">As president of Speak to Lead Toastmasters, I led more than 30 members and 7 officers to the Golden Gavel, the highest regional honor. I also served as club mentor for the Toastmasters club at Great Lakes Institute of Management.</p>
+      </div>
+    </section>
+
+    <section class="section wrap" id="skills" aria-labelledby="skills-title">
+      <h2 class="section-title" id="skills-title">Skills</h2>
+      <div class="section-body">
+        <dl class="skills">
+          <div>
+            <dt>Product</dt>
+            <dd>Product strategy, customer discovery, user interviews, MVP and requirements definition, prioritization, go-to-market, executive communication, cross-functional stakeholder management</dd>
+          </div>
+          <div>
+            <dt>Analytical</dt>
+            <dd>LLM benchmarking, hypothesis testing, unit economics, game theory, ML fairness</dd>
+          </div>
+          <div>
+            <dt>Technical</dt>
+            <dd>PyTorch, TensorFlow, Transformers, LLMs (Llama-3, DeepSeek-V3), RAG; AWS, Azure, Terraform, Docker, Kubernetes, CI/CD; Python, SQL, C++, Java; Flask, Django, React</dd>
+          </div>
+          <div>
+            <dt>Certifications</dt>
+            <dd>Machine Learning (Stanford, Coursera); Neural Networks and Deep Learning (DeepLearning.AI)</dd>
+          </div>
+          <div>
+            <dt>Languages</dt>
+            <dd>Tamil (native), Hindi (fluent)</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section wrap contact" id="contact" aria-labelledby="contact-title">
+      <h2 class="section-title" id="contact-title">Contact</h2>
+      <div class="section-body">
+        <p class="contact-lead">Email is the fastest way to reach me.</p>
+        <p class="contact-email"><a href="mailto:vgr2110@gsb.columbia.edu">vgr2110@gsb.columbia.edu</a></p>
+        <ul class="contact-links">
+          <li><a href="https://www.linkedin.com/in/vinayakr2" rel="me">linkedin.com/in/vinayakr2</a></li>
+          <li>Based in New York. Eligible for 3-year STEM OPT.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; <span id="year">2026</span> Vinayak G Raju</p>
+    </div>
+  </footer>
+
+  <script src="ransac.js" defer></script>
+</body>
+</html>
