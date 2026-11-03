@@ -24,6 +24,7 @@
       <a class="wordmark" href="#top">Vinayak G Raju</a>
       <nav aria-label="Sections">
         <ul>
+          <li><a href="#line">Line (HCDI)</a></li>
           <li><a href="#work">Work</a></li>
           <li><a href="#research">Research</a></li>
           <li><a href="#education">Education</a></li>
@@ -34,6 +35,14 @@
   </header>
 
   <main id="main">
+    <a class="feature-band" href="#line">
+      <span class="wrap feature-band-inner">
+        <span class="band-tag">New</span>
+        <span class="band-text"><strong>Line</strong>, subway navigation for newcomers to New York: my team&rsquo;s project for Human-Centered Design and Innovation at Columbia</span>
+        <span class="band-arrow" aria-hidden="true">&darr;</span>
+      </span>
+    </a>
+
     <section class="hero wrap" id="top">
       <div class="hero-text">
         <h1>Vinayak<br>G&nbsp;Raju</h1>
@@ -57,6 +66,101 @@
           <strong>RANSAC, running live.</strong> It tests lines through random pairs of points and keeps the one most points agree with. The dashed line is ordinary least squares, dragged off course by the outliers. My first-author paper, <em>Smart RANSAC</em>, builds on this method.
         </figcaption>
       </figure>
+    </section>
+
+    <section class="feature" id="line" aria-labelledby="line-title">
+      <div class="wrap">
+      <header class="feature-head">
+        <p class="eyebrow"><span class="eyebrow-tag">Featured project</span> Human-Centered Design and Innovation (IEME E4201), Columbia, fall 2026</p>
+        <h2 class="feature-title" id="line-title">Line</h2>
+        <p class="feature-tagline">Subway navigation that helps international professionals new to New York avoid unforced errors on their commute, from the first step underground to the right corner above it.</p>
+      </header>
+
+      <div class="feature-grid">
+        <figure class="feature-film">
+          <video controls preload="metadata" playsinline poster="projects/line/line-film-poster.jpg" aria-label="Line concept film">
+            <source src="projects/line/line-concept-film.mp4" type="video/mp4">
+            <a href="projects/line/line-concept-film.mp4">Watch the Line concept film (MP4)</a>
+          </video>
+          <figcaption><strong>Concept film, one minute.</strong> A new hire&rsquo;s first commute in New York, from her front door to the office, with Line guiding each step.</figcaption>
+        </figure>
+
+        <div class="feature-story">
+          <div class="feature-block">
+            <h3>The problem</h3>
+            <p>The line we heard most in interviews with New Yorkers: &ldquo;People don&rsquo;t know where to go in the subway.&rdquo; For someone in their first week at a new job, a wrong entrance, a compass-style &ldquo;Exit NW&rdquo; or a dead signal underground turns an ordinary delay into arriving late.</p>
+            <dl class="stats">
+              <div><dt class="stat-num">472</dt><dd class="stat-label">subway stations</dd></div>
+              <div><dt class="stat-num">4.0M</dt><dd class="stat-label">weekday riders (MTA, 2025)</dd></div>
+              <div><dt class="stat-num">46%</dt><dd class="stat-label">of NYC&rsquo;s workforce are immigrants</dd></div>
+            </dl>
+          </div>
+
+          <div class="feature-block">
+            <h3>What we designed</h3>
+            <p>Line numbers every subway entrance and exit, then guides riders through each checkpoint: the entrance for the right platform, the car and door nearest their exit, a buzz the moment they head the wrong way, and the exit to take, with left and right turns instead of compass points. It works offline, in the rider&rsquo;s own language, and can project arrows onto the station floor through the phone camera or smart glasses.</p>
+          </div>
+
+          <p class="result">3 of 3 riders who tested the concept chose Line as the most helpful option, over Exit Strategy and the MTA app.</p>
+        </div>
+      </div>
+
+      <figure class="screens">
+        <div class="screens-scroll" tabindex="0" role="region" aria-label="Line prototype screens">
+          <img src="projects/line/line-screens.jpg" width="1600" height="484" loading="lazy" alt="Seven phone screens from the Line prototype: plan the route, find the numbered entrance, stand at the right car and door, a wrong-way warning, take the right exit, a street map of numbered exits, and AR arrows on the station floor.">
+        </div>
+        <figcaption><strong>The prototype covers the whole trip.</strong> <span class="scroll-hint">Swipe to see all seven screens. </span>Plan, enter, board, get nudged back on track, exit, and follow the route in AR.</figcaption>
+      </figure>
+
+      <div class="feature-lower">
+        <div class="feature-learn">
+          <h3>What the research changed</h3>
+          <ol class="insights">
+            <li>
+              <p class="insight">Compass directions fail newcomers.</p>
+              <p class="so">So Line says &ldquo;turn left,&rdquo; never &ldquo;go NW.&rdquo;</p>
+            </li>
+            <li>
+              <p class="insight">The first mistake happens at the entrance.</p>
+              <p class="so">So Line routes riders to the numbered entrance for their platform.</p>
+            </li>
+            <li>
+              <p class="insight">Newcomers already trust numbered exits.</p>
+              <p class="so">So Line brings the system riders know from Tokyo and Seoul to New York.</p>
+            </li>
+            <li>
+              <p class="insight">Small errors compound into misery.</p>
+              <p class="so">So Line removes the avoidable errors, and a delay stays just a delay.</p>
+            </li>
+            <li>
+              <p class="insight">Guidance has to live on the rider&rsquo;s own device.</p>
+              <p class="so">So Line runs on the phone and pairs with riders&rsquo; own watches and glasses.</p>
+            </li>
+          </ol>
+        </div>
+
+        <aside class="feature-aside" aria-label="Project details">
+          <a class="poster-thumb" href="projects/line/line-poster.pdf">
+            <img src="projects/line/line-poster.jpg" width="1400" height="1082" loading="lazy" alt="The Line project poster: the problem, the app, who it is for, how it works, what riders said, the ecosystem, a comparison with alternatives, and AR and wearables.">
+            <span>Project poster (PDF)</span>
+          </a>
+          <dl class="feature-facts">
+            <div>
+              <dt>Team</dt>
+              <dd>Nikolai Sie, Brian Dongwoo Lee, Daniel Shachar and me</dd>
+            </div>
+            <div>
+              <dt>Methods</dt>
+              <dd>Interviews with NYC commuters, journey mapping, competitor review, concept testing with three riders</dd>
+            </div>
+            <div>
+              <dt>Materials</dt>
+              <dd><a href="projects/line/line-design-document.pdf">Design document (PDF)</a><br><a href="projects/line/line-concept-film.mp4">Concept film (MP4)</a></dd>
+            </div>
+          </dl>
+        </aside>
+      </div>
+      </div>
     </section>
 
     <section class="section wrap" id="work" aria-labelledby="work-title">
