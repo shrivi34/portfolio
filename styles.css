@@ -116,8 +116,9 @@ a:hover { text-decoration-color: var(--ink); }
 .hero h1 {
   font-size: clamp(3.25rem, 11vw, 6.75rem);
   font-weight: 800;
-  line-height: 0.92;
-  letter-spacing: -0.045em;
+  line-height: 1.06;
+  letter-spacing: -0.035em;
+  word-spacing: 0.1em;
   margin-bottom: 2rem;
 }
 
